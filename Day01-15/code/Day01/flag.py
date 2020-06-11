@@ -42,7 +42,7 @@ def draw_star(x, y, radius):
 
 def main():
     """主程序"""
-    turtle.speed(12)
+    # turtle.speed(15)
     turtle.penup()
     x, y = -270, -180
     # 画国旗主体

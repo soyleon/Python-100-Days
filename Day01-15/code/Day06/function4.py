@@ -30,7 +30,7 @@ asctime = time.asctime(localtime)
 print(asctime)
 strtime = time.strftime('%Y-%m-%d %H:%M:%S', localtime)
 print(strtime)
-mydate = time.strptime('2018-1-1', '%Y-%m-%d')
+mydate = time.strptime('2020-1-1', '%Y-%m-%d')
 print(mydate)
 
 shutil.copy('/Users/Hao/hello.py', '/Users/Hao/Desktop/first.py')
