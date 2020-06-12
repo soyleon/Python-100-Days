@@ -17,7 +17,7 @@ def main():
 
     nickname = input('请输入你的昵称: ')
     myclient = socket()
-    myclient.connect(('10.7.189.118', 12345))
+    myclient.connect(('192.168.1.101', 12345))
     running = True
     RefreshScreenThread(myclient).start()
     while running:
